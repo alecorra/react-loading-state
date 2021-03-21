@@ -1,4 +1,4 @@
-# Project Title
+# React Loading State
 
 Small exercise to practice the fetch request and the status handling in React TS.
 
