@@ -1,0 +1,22 @@
+.joke-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  &__property {
+    margin-right: 30px;
+    width: 30%;
+  }
+
+  &__value {
+    border: 2px solid green;
+    width: 70%;
+  }
+
+  &__property,
+  &__value {
+    padding: 10px;
+    border-radius: 10px;
+  }
+}

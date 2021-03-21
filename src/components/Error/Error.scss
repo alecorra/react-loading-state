@@ -1,0 +1,17 @@
+$red-error: #ff0000;
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  &__message {
+    border: 5px solid $red-error;
+    padding: 50px;
+    border-radius: 20px;
+    color: $red-error;
+    margin-bottom: 30px;
+  }
+}

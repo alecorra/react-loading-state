@@ -14,9 +14,7 @@
   },
   "rules": {
     "object-curly-spacing": ["warn", "always"],
-    "@typescript-eslint/semi": [
-      "error"
-    ],
+    "@typescript-eslint/semi": ["error"],
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
@@ -25,7 +23,7 @@
       }
     ],
     "@typescript-eslint/no-explicit-any": [
-      "error",
+      "warn",
       {
         "ignoreRestArgs": true
       }
@@ -33,7 +31,7 @@
     "max-len": [
       "warn",
       {
-        "code": 80,
+        "code": 100,
         "ignoreStrings": true,
         "ignoreTemplateLiterals": true,
         "ignoreComments": true
